@@ -14,8 +14,12 @@ class _CalcIMCViewState extends State<CalcIMCView> {
       backgroundColor: Colors.grey.shade900,
 
       appBar: AppBar(
-        title: const Text('Calculadora de IMC'),
-        backgroundColor: Colors.white,
+        title: Text(
+          'Calculadora de IMC',
+          style: TextStyle(color: Colors.white)
+          ),
+        centerTitle: true,
+        backgroundColor: Colors.black,
       ),
     );
   }
